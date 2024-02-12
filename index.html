@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Personal Portfolio Website </title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/1e7fe16be2.js" crossorigin="anonymous"></script>
+
+
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class=" fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Emmanuel Villanueva</span><br> From Mandaluyong City</h1>
+        </div>
+      </div>
+<!----------------------about----------------->
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+             I am Emmanuel Villanueva i am 23 years old From Blk 7 Mauway Street Mandaluyong City I graduated from Rizal Technology, I graduated with a Bachelor of Science Information Technology 
+              My skills are to edit image content in Adobe Photo Shop and create content, 
+              I have no experience yet but I am a fast learner and willing to learn in trainings, Responsible, honest and experience, Knowledgeable in software & Hardware,
+               Well organized and task oriented, Good for problem solving, Willing to work under pressure and overtime. Have a knowledge in web developing I have completed web designer and web developer training in wordpress.  </p>
+
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <!----------------------content 1----------------->
+               <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li><span>Web Developer</span><br>Web Development Designing Web</li>
+                    <li><span>Adobe Photoshop</span><br>Designing Contect picture</li>
+                    <li><span>Web Desingner</span><br>Designing Web and Web Developer</li>
+                  </ul>
+
+               </div>
+              <!----------------------content 2----------------->
+               <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>February-May 2022 </span><h4>On-the-Job </h4><br>Training Web Designer <br>and Web Developer Wordpress <br>SLMP Digital Services Corporation</li>
+                  
+                </ul>
+
+             </div>
+             <!----------------------content 3----------------->
+             <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2007-2003</span><br>Highway Hills Integrated School <br>Brgy Highway Hills, Mandaluyong City</li>
+                <li><span>2013-2017</span><br>Highway Hills Integrated School <br>Brgy Highway Hills, Mandaluyong City</li>
+                <li><span>2017-2019</span><br>Saint John Bosco Institute of Arts <br>and Sciences 55 Shaw Blvd.<br> Kalentong 1550 Mandaluyong, city</li>
+                <li><span>2020-2023</span><br>Rizal Technology University Boni Ave, <br>Mandaluyong, 1550 Metro Manila Bachelor’s in <br>(Information Technology)</li>
+              </ul>
+
+           </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------services------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>Web developers create functional, user-friendly websites and web applications.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>A web designer creates the layout and design of a website. 
+              In simple terms, a website designer makes a site look good.</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-regular fa-image"></i>
+            <h2>Adobe Photoshop</h2>
+            <p>Photoshop is instrumental in crafting website layouts, designing elements, and optimizing images for the web.</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!----------------portfolio----------->
+    <div id="portfolio">
+
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+          <div class="skills">
+            <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Web Desisgning / Designer</h3>
+              <p>A web designer creates the layout and design of a website. 
+                In simple terms, a website designer makes a site look good. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="skills">
+            <img src="images/work-2.png">
+            
+            <div class="layer">
+              <h3>Web developer coding</h3>
+              <p>Web developers create functional, user-friendly websites and web applications. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="skills">
+            <img src="images/work-3.png">
+            <div class="layer">
+              <h3>Adobe Photoshop Editing</h3>
+              <p>Photoshop is instrumental in crafting website layouts, designing elements, and optimizing images for the web. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!----------contact-------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title"> Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>emman.villanueva123484@gmail.com</p>
+          <p> <i class="fa-solid fa-square-phone"></i>09617747460</p>
+          <div class="social-icons">
+
+            <a href="http://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="Villanueva emmanuel resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Messages"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Emmanuel. Made with <i class="fa-solid fa-heart"></i> by Web Developer Training</p>
+      </div>
+    </div>
+    <script>
+       
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+       }
+    </script>
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw_JUlsn6ViAXhvpOVb6KenNF5drDY6jAoWwSjLrVZaO1QdCbAYgYyqVRrNY7EJcgzX/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg =document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>
